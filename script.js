@@ -93,11 +93,11 @@ console.log(newArray2);
 
 // 8. მოცემულია სტრინგი - ‘javascript’, მიიღეთ შემოტრიალებული ვარიანტი მეთოდების გარეშე ( for loop ით);
 
-let stringJ = 'javascript';
+
 let word = 'javascript';
 
-for (let i = word.length; i < 0; i++) {
-    console.log(i);
+for (let i = word.length-1; i >= 0; i--) {
+    console.log(word[i]);
 }  // amis logika ar mesmis 
 
 
