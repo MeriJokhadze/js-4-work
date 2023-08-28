@@ -40,15 +40,15 @@ console.log(wordsNew);
 // <h2 class=“title”> image title </h2>
 // </div>
 
-// document.getElementById("newDivId").classList.add("wraper");
-// let imgElement = document.createElement("img");
-// imgElement.setAttribute("src", "https://html.com/wp-content/uploads/flamingo.webp" );
-// imgElement.setAttribute("alt", "image");
-// document.getElementById("newDivId").appendChild(imgElement);
-// let imgTitle = document.createElement("h2");
-// imgTitle.classList.add("title");
-// imgTitle.textContent = "image title";
-// document.getElementById("newDivId").appendChild(imgTitle);
+document.getElementById("newDivId").classList.add("wraper");
+let imgElement = document.createElement("img");
+imgElement.setAttribute("src", "https://html.com/wp-content/uploads/flamingo.webp" );
+imgElement.setAttribute("alt", "image");
+document.getElementById("newDivId").appendChild(imgElement);
+let imgTitle = document.createElement("h2");
+imgTitle.classList.add("title");
+imgTitle.textContent = "image title";
+document.getElementById("newDivId").appendChild(imgTitle);
 
 
 
@@ -128,18 +128,20 @@ console.log(logString("mery"));
 
 //  ნოუდ ჯიეზით ვერ ვამოწმებ ფრომფთ ფუნქციას მგონი 
 
-// let question = prompt("საქართველოს დედაქალაქი? ");
-// let correct = "tbilisi";
+let question = prompt("საქართველოს დედაქალაქი? ");
+let correct = "tbilisi";
 
-// let resultt = function (question, correct){
-//     if (question.toLowerCase() === "tbilisi"){
-//         return correct;
-//     }else{
-//         return false;
-//     }
-// }
+let resultt = function (question, correct){
+    if (question.toLowerCase() === "tbilisi"){
+        return correct;
+    }else{
+        console.log('ara');
+        return false;
+    }
+    
+console.log(resultt(question,correct));
 
-// console.log(resultt(question,correct));
+}
 
 
 // 12. მოცემულია: 
